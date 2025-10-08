@@ -1,0 +1,20 @@
+@import "tailwindcss";  
+@font-face {
+  font-family: Inter;
+  src: url(./assets/fonts/Inter-VariableFont_opsz,wght.ttf);
+}
+*{
+    /* background-color: #1c2419; */
+    font-family: Inter;
+}
+
+.hero {
+  height: 320vh;
+  width: 100%;
+   /* full screen height */
+  background-image: url("./assets/images/hero-sec-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;   /* keeps full image visible */
+  background-position: center;
+  
+}

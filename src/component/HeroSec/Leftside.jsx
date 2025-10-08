@@ -4,7 +4,7 @@ import alenaPatelGroup from '../../assets/images/aleena-patel-group.png'
 
 const Leftside = () => {
   return (
- <main className="col-span-3 flex flex-col gap-40">
+ <main className="col-span-3 flex flex-col gap-32">
             <div>
                 <h1 className="text-[100px]">Breath Natural</h1>
                 <p className="text-[14px] w-[70%]">

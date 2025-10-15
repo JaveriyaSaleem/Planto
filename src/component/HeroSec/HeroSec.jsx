@@ -1,6 +1,7 @@
 import React from "react";
 import RightSide from "./RightSide.jsx";
 import Leftside from "./Leftside.jsx";
+import LCorneredBorder from "./LCorneredBorder.jsx";
 
 
 const HeroSec = () => {
@@ -13,6 +14,10 @@ const HeroSec = () => {
           {/* right side  */}
           <RightSide/>
         </div>
+        <div className="text-center">
+          <LCorneredBorder title={"Our Trendy Plants"}/>
+        </div>
+
     </main>
   );
 };

@@ -8,14 +8,14 @@ const Card = () => {
       <figure className='grid grid-cols-2'>
 
         <div className='-mt-10'><img src={img} alt="" className='w-80'/></div>
-        <figcaption className='text-white flex flex-col justify-center text-left'>
-            <h1 className='text-[22px] font-semibold'>For Small Decs Ai Plant</h1>
-            <p className='text-[14px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-            <span className='text-[18px] font-semibold'>Rs. 599/-</span>
+        <figcaption className='text-white flex flex-col justify-center text-left gap-2'>
+            <h1 className='text-[22px] font-medium'>For Small Decs Ai Plant</h1>
+            <p className='text-[14px] font-light'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            <span className='text-[18px] font-medium'>Rs. 599/-</span>
             
-            <div className='flex flex-col items-start'>
-              <button className='border font-light'>Explore</button>
-              <button className='border'><IoBagHandleOutline /></button>
+            <div className='flex flex-row items-center justify-start gap-2'>
+              <button className='border rounded-[4px] px-7 font-light text-[14px] py-1'>Explore</button>
+              <button className='border px-2 py-[0.40rem] rounded-[4px]'><IoBagHandleOutline /></button>
             </div>
             
             </figcaption>

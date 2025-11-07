@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './component/Navbar'
 import HeroSec from './component/HeroSec/HeroSec'
+import BelowHero from './BelowHero'
 
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
 
       <Navbar/>
       <HeroSec/>
+      <BelowHero/>
       </div>
     </div>
   )

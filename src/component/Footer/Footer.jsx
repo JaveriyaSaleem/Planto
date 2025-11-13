@@ -36,7 +36,7 @@ const Footer = () => {
                 <h2 className='font-bold mb-5'>For Every Update.</h2>
                 <div className='border flex flex-row justify-between text-[14px] rounded-md w-80'>
                     <input type="email" placeholder='Enter Email' className='px-2'/>
-                    <button className='border py-3 px-3 rounded-md bg-white text-black font-bold text-[12px]'>SUBSCRIBE</button>
+                    <button className='border py-2 px-3 rounded-md bg-white text-black font-bold text-[12px]'>SUBSCRIBE</button>
                 </div>
               </div>
     </div>

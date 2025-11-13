@@ -8,7 +8,7 @@ const LCorneredBorder = (props) => {
   <span className="absolute bottom-1 -left-2 w-8 h-8 border-b-4 border-l-4 border-green-600/60 rounded-bl-lg"></span>
 
   {/* top-right */}
-  <span className="absolute top-2 -right-2 w-8 h-8 border-t-4 border-r-4 border-green-600/60 rounded-tr-lg"></span>
+  <span className="absolute top-1 -right-2 w-8 h-8 border-t-4 border-r-4 border-green-600/60 rounded-tr-lg"></span>
 
   {props.title}
 </div>

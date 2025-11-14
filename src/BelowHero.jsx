@@ -10,10 +10,10 @@ import product6 from './assets/images/top-selling-calathea-6.png'
 const BelowHero = () => {
   return (
     <main >
-      <div className='text-center py-12'>
+      <div className='text-center sm:py-12'>
           <LCorneredBorder title={"Our Top Selling"}/>
           </div>
-          <div className='grid grid-cols-3 px-10'>
+          <div className='sm:grid grid-cols-3 sm:px-10'>
             <div ><img src={product1} alt="" className='cursor-pointer'/></div>
             <div ><img src={product2} alt="" className='cursor-pointer'/></div>
             <div ><img src={product3} alt="" className='cursor-pointer'/></div>

@@ -8,7 +8,7 @@ import OurTrendyProduct from "./OurTrendyProducts/OurTrendyProduct.jsx";
 const HeroSec = () => {
   return (
 
-    <main className="hero">
+    <main className="hero h-[430vh] sm:h-[290vh]">
         <div className="grid lg:grid-cols-4 text-[#c6c8c5] lg:px-15 lg:pt-20">
           {/* left side  */}
          <Leftside/>

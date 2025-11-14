@@ -3,7 +3,7 @@ import logo from "../../assets/images/logo.png"
 
 const Footer = () => {
   return (
-    <div className='bg-[#222c1d] py-10 grid grid-cols-3 ' >
+    <div className='bg-[#222c1d] py-10 flex flex-row justify-between px-10' >
         {/* row #1  */}
         {/* logo  */}
               <div className='flex flex-col items-start gap-5 ps-8'>
@@ -23,7 +23,7 @@ const Footer = () => {
 
               {/* row #2  */}
               <div className='text-white flex flex-col gap-3'>
-                <h2 className='font-bold'>Quick Link's</h2>
+                <h2 className='font-bold text-start'>Quick Link's</h2>
                 <ul className='text-[14px] text-sm/7'>
                     <li>Home</li>
                     <li>Type's of Plant's</li>

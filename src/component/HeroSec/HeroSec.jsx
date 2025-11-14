@@ -15,7 +15,7 @@ const HeroSec = () => {
           {/* right side  */}
           <RightSide />
         </div>
-        <div className="text-center">
+        <div className="text-center px-2">
           <LCorneredBorder title={"Our Trendy Plants"}/>
           <OurTrendyProduct/>
         </div>

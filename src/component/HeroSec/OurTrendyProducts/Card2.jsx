@@ -14,7 +14,7 @@ const Card2 = () => {
             <span className='text-[18px] font-medium'>Rs. 599/-</span>
             
             <div className='flex flex-row items-center justify-start gap-2'>
-              <button className='border rounded-[4px] px-7 font-light text-[14px] py-1'>Explore</button>
+              <button className='border rounded-[4px] px-7 font-light text-[14px] py-1 cursor-pointer'>Explore</button>
               <button className='border px-2 py-[0.40rem] rounded-[4px]'><IoBagHandleOutline /></button>
             </div>
             

@@ -28,7 +28,7 @@ const CardForBest = (props) => {
           {/* <span className="text-[18px] font-medium">Rs. 599/-</span> */}
 
           <div className="flex flex-row items-center justify-between gap-2">
-            <button className="border rounded-lg px-10 font-light text-[14px] py-1">
+            <button className="border rounded-lg px-10 font-light text-[14px] py-1 cursor-pointer">
               Explore
             </button>
             <div className="flex flex-row items-end">

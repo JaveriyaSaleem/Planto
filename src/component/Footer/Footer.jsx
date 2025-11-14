@@ -25,18 +25,18 @@ const Footer = () => {
               <div className='text-white flex flex-col gap-3'>
                 <h2 className='font-bold text-start'>Quick Link's</h2>
                 <ul className='text-[14px] text-sm/7'>
-                    <li>Home</li>
-                    <li>Type's of Plant's</li>
-                    <li>Contact</li>
-                    <li>Privacy</li>
+                    <li className='cursor-pointer'>Home</li>
+                    <li className='cursor-pointer'>Type's of Plant's</li>
+                    <li className='cursor-pointer'>Contact</li>
+                    <li className='cursor-pointer'>Privacy</li>
                 </ul>
               </div>
               {/* row #3  */}
               <div className='text-white'>
                 <h2 className='font-bold mb-5'>For Every Update.</h2>
                 <div className='border flex flex-row justify-between text-[14px] rounded-md w-80'>
-                    <input type="email" placeholder='Enter Email' className='px-2'/>
-                    <button className='border py-2 px-3 rounded-md bg-white text-black font-bold text-[12px]'>SUBSCRIBE</button>
+                    <input type="email" placeholder='Enter Email' className='px-2 outline-0'/>
+                    <button className='border py-2 px-3 rounded-md bg-white text-black font-bold text-[12px] cursor-pointer'>SUBSCRIBE</button>
                 </div>
               </div>
     </div>

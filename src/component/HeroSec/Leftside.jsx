@@ -1,6 +1,7 @@
 import React from 'react'
 import demoButton from "../../assets/images/demo-hero.png";
 import alenaPatelGroup from '../../assets/images/aleena-patel-group.png'
+import "./herosec.css"
 
 const Leftside = () => {
   return (
@@ -12,9 +13,12 @@ const Leftside = () => {
                   eiusmod tempor incididunt ut labore et dolore magna aliqua
                 </p>
                 <div className="flex gap-6 py-3">
-                  <button className="border px-10 rounded-[8px]">Explore</button>
+                  <button className="border px-10 rounded-[8px] cursor-pointer">Explore</button>
                   <figure className="flex items-center gap-2">
-                    <img src={demoButton} alt="demoButton" className="w-10" />
+                    <div className='play-btn cursor-pointer'>
+                    <img src={demoButton} alt="demoButton" className="w-10 " />
+                    </div>
+                    {/* <a class="play-btn" href="#"></a> */}
                     <figcaption className="text-[14px]">Live Demo..</figcaption>
                   </figure>
                 </div>

@@ -11,7 +11,7 @@ const RightSide = () => {
                 <figcaption className="py-3 px-3">
                   <p className="text-[14px]">Trendy House Plant</p>
                   <h3 className="text-[24px]">Calathea Plant</h3>
-                  <button className="border text-[14px] px-5 py-1 rounded-lg">Buy Now</button>
+                  <button className="border text-[14px] px-5 py-1 rounded-lg cursor-pointer">Buy Now</button>
                 </figcaption>
               </figure>
             </div>

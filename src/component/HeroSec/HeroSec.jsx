@@ -9,11 +9,11 @@ const HeroSec = () => {
   return (
 
     <main className="hero">
-        <div className="grid grid-cols-4 text-[#c6c8c5] px-15 pt-20">
+        <div className="grid lg:grid-cols-4 text-[#c6c8c5] lg:px-15 lg:pt-20">
           {/* left side  */}
          <Leftside/>
           {/* right side  */}
-          <RightSide/>
+          <RightSide />
         </div>
         <div className="text-center">
           <LCorneredBorder title={"Our Trendy Plants"}/>

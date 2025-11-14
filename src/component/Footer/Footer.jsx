@@ -3,7 +3,7 @@ import logo from "../../assets/images/logo.png"
 
 const Footer = () => {
   return (
-    <div className='bg-[#222c1d] py-10 flex flex-row justify-between px-10' >
+    <div className='bg-[#222c1d] py-10 flex flex-col lg:flex-row justify-between px-10' >
         {/* row #1  */}
         {/* logo  */}
               <div className='flex flex-col items-start gap-5 ps-8'>

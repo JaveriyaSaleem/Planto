@@ -9,7 +9,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const CardForBest = (props) => {
   return (
-    <div className="bg-white/5 backdrop-blur-md mt-30 rounded-[100px] shadow-lg border border-white/10 w-6xl py-2 mx-auto my-10 ">
+    <div className="bg-white/5 backdrop-blur-md mt-30 rounded-[100px] shadow-lg border border-white/10 lg:w-6xl py-2 mx-auto my-10 ">
       <figure className="grid grid-cols-2">
         <div className="-mt-40">
           <img src={props.img} alt="" className="w-full" />

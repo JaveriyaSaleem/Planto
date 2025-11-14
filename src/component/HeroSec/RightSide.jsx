@@ -4,7 +4,7 @@ import calathea from '../../assets/images/calathea-plant.png'
 const RightSide = () => {
   return (
    <main>
-  <div className="bg-white/5 backdrop-blur-md px-6 pb-5  rounded-[50px] shadow-lg border border-white/10">
+  <div className="bg-white/5 backdrop-blur-md px-6 pb-5  rounded-[50px] shadow-lg border border-white/10 hidden lg:block">
             
               <figure className="relative">
                 <img src={calathea} alt="calathea" className="mx-auto -mt-10"/>

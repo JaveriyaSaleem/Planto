@@ -4,7 +4,7 @@ import { IoBagHandleOutline } from "react-icons/io5";
 
 const Card2 = () => {
   return (
-    <div className='bg-white/5 backdrop-blur-md px-6 pb-5  rounded-[100px] shadow-lg border border-white/10 w-6xl mx-auto my-10 '>
+    <div className='bg-white/5 backdrop-blur-md px-6 pb-5  rounded-[100px] shadow-lg border border-white/10 lg:w-6xl mx-auto my-10 '>
       <figure className='grid grid-cols-2'>
 
         
